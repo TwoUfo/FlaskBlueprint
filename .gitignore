@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask instance and config files
+instance/
+*.pyc
+*.pyo
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.virtualenv/
+
+# Logs and local database
+*.log
+*.sqlite3
+*.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.coverage
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Static files generated during development
+staticfiles/
+node_modules/
+
+# Docker
+*.env
+*.pid
+*.seed
+*.sqlite
+*.swp
+docker-compose.override.yml
